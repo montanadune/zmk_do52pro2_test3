@@ -53,10 +53,10 @@
       xy-swap;
       x-invert;
       y-invert;
-      layer-toggle = <MOUSE_TP>;
-      layer-toggle-delay-ms = <300>;
-      layer-toggle-timeout-ms = <125>;
-      layer-toggle-require-prior-idle-ms = <300>;
+      // layer-toggle = <MOUSE_TP>;
+      // layer-toggle-delay-ms = <300>;
+      // layer-toggle-timeout-ms = <125>;
+      // layer-toggle-require-prior-idle-ms = <300>;
     };
 
     &mouse_ps2 {
