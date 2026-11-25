@@ -1,23 +1,8 @@
-# This file generates the GitHub Actions matrix
-# For simple board + shield combinations, add them
-# to the top level board and shield arrays, for more
-# control, add individual board + shield combinations to
-# the `include` property, e.g:
-#
-# board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#
 ---
 include:
-#  - board: nice_nano_v2
-#    shield: do52pro_tp_left 
   - board: nice_nano_v2
     shield: do52pro_tp_right
-  - board: nice_nano_v2
-    shield: settings_reset
-#    snippet: zmk-usb-logging studio-rpc-usb-uart
-#   cmake-args: -DCONFIG_ZMK_STUDIO=y
+
+# 初期化用ファームウェアが必要な時だけ下の2行の # を外してください
+#  - board: nice_nano_v2
+#    shield: settings_reset
