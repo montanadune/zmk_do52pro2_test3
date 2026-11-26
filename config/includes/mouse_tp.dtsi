@@ -37,7 +37,7 @@
           compatible = "zmk,input-accelerator";
           acceleration-curve = "scroll";
           acceleration-factor-rate = <25>;
-          acceleration-start-offset = <10>;
+          acceleration-start-offset = <20>;
           max-speed = <20>;
           divisor = <20>;
           enable-interval-based-speed;
