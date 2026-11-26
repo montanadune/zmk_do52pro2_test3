@@ -37,7 +37,7 @@
           compatible = "zmk,input-accelerator";
           acceleration-curve = "scroll";
           acceleration-factor-rate = <25>;
-          acceleration-start-offset = <20>;
+          acceleration-start-offset = <10>;
           max-speed = <20>;
           divisor = <20>;
           enable-interval-based-speed;
@@ -62,7 +62,7 @@
     &mouse_ps2 {
       status = "okay";
       tp-sensitivity = <75>;   // ★45 -> 75: センサーの基本感度を実用レベルまで引き上げ
-      tp-neg-inertia = <2>;
+      tp-neg-inertia = <12>;
       disable-clicking;
     };
 
