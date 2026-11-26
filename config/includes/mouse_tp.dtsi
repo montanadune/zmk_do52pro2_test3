@@ -23,10 +23,10 @@
           status = "okay";
           compatible = "zmk,input-accelerator";
           acceleration-curve = "sigmoid";
-          acceleration-factor-base = <20>;   // ★10 -> 35: 通常の移動速度を大幅に引き上げ
-          acceleration-factor-max = <150>;   // ★150 -> 200: 素早く動かした時の最高速をアップ
-          acceleration-factor-rate = <50>;   // ★50 -> 65: 指を入れた瞬間の立ち上がりを鋭くする
-          acceleration-start-offset = <45>;  // ★100 -> 45: 軽い力ですぐ加速が始まるようにする
+          acceleration-factor-base = <15>;   // ★10 -> 35: 通常の移動速度を大幅に引き上げ
+          acceleration-factor-max = <100>;   // ★150 -> 200: 素早く動かした時の最高速をアップ
+          acceleration-factor-rate = <30>;   // ★50 -> 65: 指を入れた瞬間の立ち上がりを鋭くする
+          acceleration-start-offset = <100>;  // ★100 -> 45: 軽い力ですぐ加速が始まるようにする
           max-speed = <110>;                 // ★110 -> 150: 速度の上限を解放
           enable-interval-based-speed;
           input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>;
